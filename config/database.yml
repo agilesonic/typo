@@ -10,9 +10,9 @@ test: &test
 
 production:
   adapter: mysql2
-  host: localhost
-  username: root
-  password: Yin512
+  host: typo.cy42tayowjsy.us-east-1.rds.amazonaws.com
+  username: typo
+  password: Save0404
   database: typo
 
 cucumber:
