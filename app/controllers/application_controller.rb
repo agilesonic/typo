@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
       end
     end
   end
-
+  
   protected
 
   def set_paths

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "health_check/index"
+
   # Load plugin routes first. A little bit ugly, but I didn't find any better way to do it
   # We consider that only typo_* plugins are concerned
   Dir.glob(File.join("vendor", "plugins", "typo_*")).each do |dir|
