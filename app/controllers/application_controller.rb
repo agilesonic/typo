@@ -67,4 +67,5 @@ class ApplicationController < ActionController::Base
   def this_blog
     @blog ||= Blog.default
   end
+  
 end

@@ -20,11 +20,13 @@ dbfile = File.expand_path("../config/database.yml", __FILE__)
 #end
 
 group :production do
-  gem 'pg'
+#  gem 'mysql2', '0.2'
 end
 
 source :rubygems
 
+gem 'mysql2', '0.2.7'
+gem 'activerecord-mysql2-adapter'
 gem 'thin'
 gem 'rails', '~> 3.0.10'
 gem 'require_relative'
