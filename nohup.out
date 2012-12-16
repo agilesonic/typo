@@ -1,0 +1,326 @@
+sudo: unable to resolve host ip-10-0-0-145
+*** ERROR ***
+The address 0.0.0.0:80 is already in use by another process, perhaps another
+Phusion Passenger Standalone instance.
+
+If you want to run this Phusion Passenger Standalone instance on another port,
+use the -p option, like this:
+
+  passenger start -p 81
+sudo: unable to resolve host ip-10-0-0-145
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /home/ubuntu/typo/tmp/pids/passenger.80.pid
+Log file: /home/ubuntu/typo/log/passenger.80.log
+Environment: production
+Accessible via: http://0.0.0.0/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+===============================================================================
+You did not specify how you would like Rails to report deprecation notices for your production environment, please set config.active_support.deprecation to :notify at config/environments/production.rb
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `block in require': iconv will be deprecated in the future, use String#encode instead.
+
+
+Started HEAD "/" for 127.0.0.1 at 2012-12-05 16:59:16 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/_article_excerpt.html.erb (11.4ms)
+Rendered articles/_article_content.html.erb (13.6ms)
+Rendered articles/_protected_article_content.html.erb (15.8ms)
+Rendered themes/bootstrap/views/articles/_article.html.erb (39.0ms)
+Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (5.5ms)
+Rendered vendor/plugins/category_sidebar/app/views/category_sidebar/_content.html.erb (9.0ms)
+Rendered vendor/plugins/archives_sidebar/app/views/archives_sidebar/_content.html.erb (1.5ms)
+Rendered vendor/plugins/static_sidebar/app/views/static_sidebar/_content.html.erb (0.8ms)
+Rendered vendor/plugins/meta_sidebar/app/views/meta_sidebar/_content.html.erb (1.1ms)
+Rendered themes/bootstrap/views/articles/index.html.erb within layouts/default (309.0ms)
+Completed 200 OK in 441ms (Views: 300.5ms | ActiveRecord: 18.8ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 16:59:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:00:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:00:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:01:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.4ms)
+Stopping web server... done
+sudo: unable to resolve host ip-10-0-0-145
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /home/ubuntu/typo/tmp/pids/passenger.80.pid
+Log file: /home/ubuntu/typo/log/passenger.80.log
+Environment: production
+Accessible via: http://0.0.0.0/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+===============================================================================
+You did not specify how you would like Rails to report deprecation notices for your production environment, please set config.active_support.deprecation to :notify at config/environments/production.rb
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `block in require': iconv will be deprecated in the future, use String#encode instead.
+
+
+Started HEAD "/" for 127.0.0.1 at 2012-12-05 17:11:17 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/_article_excerpt.html.erb (30.1ms)
+Rendered articles/_article_content.html.erb (39.2ms)
+Rendered articles/_protected_article_content.html.erb (43.7ms)
+Rendered themes/bootstrap/views/articles/_article.html.erb (79.7ms)
+Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (4.5ms)
+Rendered vendor/plugins/category_sidebar/app/views/category_sidebar/_content.html.erb (8.0ms)
+Rendered vendor/plugins/archives_sidebar/app/views/archives_sidebar/_content.html.erb (1.2ms)
+Rendered vendor/plugins/static_sidebar/app/views/static_sidebar/_content.html.erb (0.6ms)
+Rendered vendor/plugins/meta_sidebar/app/views/meta_sidebar/_content.html.erb (0.9ms)
+Rendered themes/bootstrap/views/articles/index.html.erb within layouts/default (369.8ms)
+Completed 200 OK in 551ms (Views: 393.9ms | ActiveRecord: 20.1ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:11:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 1.1ms)
+Stopping web server... done
+sudo: unable to resolve host ip-10-0-0-145
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /home/ubuntu/typo/tmp/pids/passenger.80.pid
+Log file: /home/ubuntu/typo/log/passenger.80.log
+Environment: production
+Accessible via: http://0.0.0.0/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+===============================================================================
+You did not specify how you would like Rails to report deprecation notices for your production environment, please set config.active_support.deprecation to :notify at config/environments/production.rb
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `block in require': iconv will be deprecated in the future, use String#encode instead.
+
+
+Started HEAD "/" for 127.0.0.1 at 2012-12-05 17:12:22 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/_article_excerpt.html.erb (15.0ms)
+Rendered articles/_article_content.html.erb (18.1ms)
+Rendered articles/_protected_article_content.html.erb (21.3ms)
+Rendered themes/bootstrap/views/articles/_article.html.erb (45.7ms)
+Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (4.1ms)
+Rendered vendor/plugins/category_sidebar/app/views/category_sidebar/_content.html.erb (52.1ms)
+Rendered vendor/plugins/archives_sidebar/app/views/archives_sidebar/_content.html.erb (1.3ms)
+Rendered vendor/plugins/static_sidebar/app/views/static_sidebar/_content.html.erb (0.6ms)
+Rendered vendor/plugins/meta_sidebar/app/views/meta_sidebar/_content.html.erb (1.0ms)
+Rendered themes/bootstrap/views/articles/index.html.erb within layouts/default (318.8ms)
+Completed 200 OK in 464ms (Views: 317.6ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:12:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:13:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:13:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:14:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:14:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:15:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:15:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:16:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:16:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:17:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:17:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:18:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:18:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:19:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:19:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:20:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:20:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:21:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:21:33 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/health_check/index.html" for 10.0.0.65 at 2012-12-05 17:22:03 +0000
+  Processing by HealthCheckController#index as HTML
+Rendered health_check/index.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.2ms)
+Stopping web server... done
+sudo: unable to resolve host ip-10-0-3-70
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /home/ubuntu/typo/tmp/pids/passenger.80.pid
+Log file: /home/ubuntu/typo/log/passenger.80.log
+Environment: production
+Accessible via: http://0.0.0.0/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+===============================================================================
+You did not specify how you would like Rails to report deprecation notices for your production environment, please set config.active_support.deprecation to :notify at config/environments/production.rb
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `block in require': iconv will be deprecated in the future, use String#encode instead.
+[ pid=886 thr=9316320 file=utils.rb:176 time=2012-12-16 16:38:14.004 ]: *** Exception PhusionPassenger::UnknownError in PhusionPassenger::Rack::ApplicationSpawner (Unknown MySQL server host 'typo.cy42tayowjsy.us-east-1.rds.amazonaws.com' (0) (Mysql2::Error)) (process 886, thread #<Thread:0x000000011c4fc0>):
+	from /usr/local/lib/ruby/gems/1.9.1/gems/mysql2-0.2.7/lib/mysql2/client.rb:42:in `connect'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/mysql2-0.2.7/lib/mysql2/client.rb:42:in `initialize'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-mysql2-adapter-0.0.3/lib/active_record/connection_adapters/mysql2_adapter.rb:14:in `new'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-mysql2-adapter-0.0.3/lib/active_record/connection_adapters/mysql2_adapter.rb:14:in `mysql2_connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `new_connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:237:in `checkout_new_connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:191:in `block (2 levels) in checkout'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+	from /usr/local/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/associations.rb:1807:in `create_has_and_belongs_to_many_reflection'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/associations.rb:1411:in `has_and_belongs_to_many'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.0.17/lib/active_record/autosave_association.rb:137:in `has_and_belongs_to_many'
+	from /home/ubuntu/typo/app/models/article.rb:46:in `<class:Article>'
+	from /home/ubuntu/typo/app/models/article.rb:5:in `<top (required)>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `block in require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:227:in `load_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:242:in `require'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:350:in `require_or_load'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:304:in `depend_on'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.0.17/lib/active_support/dependencies.rb:216:in `require_dependency'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/engine.rb:138:in `block (2 levels) in eager_load!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/engine.rb:137:in `each'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/engine.rb:137:in `block in eager_load!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/engine.rb:135:in `each'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/engine.rb:135:in `eager_load!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/application.rb:108:in `eager_load!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/application/finisher.rb:41:in `block in <module:Finisher>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/initializable.rb:25:in `instance_exec'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/initializable.rb:25:in `run'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/initializable.rb:50:in `block in run_initializers'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/initializable.rb:49:in `each'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/initializable.rb:49:in `run_initializers'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/application.rb:134:in `initialize!'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/railties-3.0.17/lib/rails/application.rb:77:in `method_missing'
+	from /home/ubuntu/typo/config/environment.rb:5:in `<top (required)>'
+	from config.ru:3:in `require'
+	from config.ru:3:in `block in <main>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.2.5/lib/rack/builder.rb:46:in `instance_eval'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.2.5/lib/rack/builder.rb:46:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/rack/application_spawner.rb:225:in `eval'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/rack/application_spawner.rb:225:in `load_rack_app'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/rack/application_spawner.rb:157:in `block in initialize_server'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/utils.rb:563:in `report_app_init_status'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/rack/application_spawner.rb:154:in `initialize_server'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server.rb:204:in `start_synchronously'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+	from <internal:prelude>:10:in `synchronize'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+	from /var/lib/passenger-standalone/3.0.18-x86_64-ruby1.9.3-linux-gcc4.6.3-1002/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+[ pid=884 thr=140565967156992 file=ext/nginx/HelperAgent.cpp:933 time=2012-12-16 16:38:14.116 ]: Uncaught exception in PassengerServer client thread:
+   exception: write() failed: Broken pipe (32)
+   backtrace:
+     in 'void Client::handleRequest(Passenger::FileDescriptor&)' (HelperAgent.cpp:828)
+     in 'void Client::threadMain()' (HelperAgent.cpp:952)
+
